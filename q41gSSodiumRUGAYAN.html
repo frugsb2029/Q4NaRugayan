@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Portfolio - Create & Read</title>
+    <link rel="stylesheet" href="4Q1GStyle.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>Add a Movie: </h2>
+        <form id="movieForm">
+            <div class="input-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" required>
+            </div>
+
+            <div class="input-group">
+                <label for="year">Year:</label>
+                <input type="number" id="year" required>
+            </div>
+
+            <div class="input-group">
+                <label for="genre">Genre:</label>
+                <select id="genre">
+                    <option value="Action">Action</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Sci-Fi">Sci-Fi</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Rating:</label>
+                <div id="starRating" class="stars">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+            </div>
+
+            <button onclick="addMovie()" id="addMovieBtn" >Add Movie</button>
+        </form>
+
+        <hr>
+
+        <h3>Movie List</h3>
+        <div id="movieList"> </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2026 RUGAYAN, Frances Reanna R. [9-Sodium b2029]</p>
+    </footer>
+
+    <script src="4Q1GScript.js"></script>
+</body>
+</html>
