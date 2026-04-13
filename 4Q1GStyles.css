@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcfdb;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgb(255, 170, 198);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    width: 100%;
+    max-width: 400px;
+}
+
+h2, h3 { 
+    text-decoration: underline;
+    text-align: center; color: #7d053d; 
+}
+
+
+.input-group { margin-bottom: 15px; }
+
+label { display: block; font-weight: bold; margin-bottom: 5px; }
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.stars { cursor: pointer; font-size: 25px; color: #ccc; }
+.star.active { color: #ffcc00; }
+
+#addMovieBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff3e8e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addMovieBtn:hover { background-color: #e32558; }
+
+.movie-item {
+    background: #ffe6ef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+.list-stars { color: #ffcc00; }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5; 
+}
+
+.container {
+    width: 100%;
+    max-width: 500px; 
+    margin-top: 50px; 
+    flex: 1; 
+}
+
+footer {
+    background-color: #ff3e8e;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    color: white
+}
+
+.movie-item {
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.delete-btn {
+    background-color: #ff3e8e;
+    border: 2px solid #ccc;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 3px;
+    color: white
+}
+
+.delete-btn:hover { background-color: #e32558 }
+
+.list-stars {
+    color: #ffcc00;
+    margin-left: 5px;
+}
